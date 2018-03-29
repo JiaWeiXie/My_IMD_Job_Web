@@ -1,0 +1,26 @@
+// Place all the styles related to the Jobs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+nav {
+  a {
+    color: #004080;
+  }
+}
+
+#job-title {
+  color: #004080;
+}
+
+.job_list {
+  border: solid;
+  border-radius: 6px;
+  border-color: #cfcfcf;
+  a {
+    color: #004080;
+  }
+}
+.pagination {
+  a {
+    color: #004080;
+  }
+}

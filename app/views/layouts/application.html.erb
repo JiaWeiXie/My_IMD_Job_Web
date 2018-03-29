@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NtubImdJob</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container bg-white">
+      <%= render "layouts/header" %>
+      <%= render "layouts/navbar" %>
+      <div class="row">
+        <div class="col-lg-2 my-2">
+          <%= render "layouts/leftbar" %>
+        </div>
+        <div class="col-lg-10 my-2">
+          <%= yield %>
+        </div>
+      </div>
+      <%= render "layouts/footer" %>
+    </div>
+  </body>
+</html>

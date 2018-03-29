@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<h5 class="d-flex w-100 bg-light p-2" id="job-title"><%= @job.title %></h5>
+
+<p>
+  <%= simple_format(@job.content) %>
+</p>
+
+<%= link_to 'Edit', edit_job_path(@job), class: "btn btn-primary" %> |
+<%= link_to 'Back', jobs_path, class: "btn btn-secondary" %>
